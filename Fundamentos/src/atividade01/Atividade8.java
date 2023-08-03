@@ -4,19 +4,16 @@
  */
 package atividade01;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Aluno
  */
-public class AreaCirculo {
+public class Atividade8 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double pi = 3.14;
-        System.out.println("Digite o valor do raio: ");
-        int raio = scanner.nextInt();
-        double media = pi * (raio * raio);
+        for (int i = 0; i <= 100; i++) {
+            if (i % 2 == 0) {
+                System.out.println("Números pares são " + i );
+            }
+        }
     }
-    
 }

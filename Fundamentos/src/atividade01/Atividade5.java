@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Aluno
  */
-public class Viagens {
+public class Atividade5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         

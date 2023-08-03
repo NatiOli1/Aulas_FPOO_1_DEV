@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Aluno
  */
-public class Funcionario {
+public class Atividade4 {
     public static void main(String[] args) {
         Scanner scanner = new  Scanner(System.in);
         System.out.println("Qual é o sálario do funcionário? ");

@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Aluno
  */
-public class VelocidadeCarro {
+public class Atividade3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Qual a velocidade do carro?: ");

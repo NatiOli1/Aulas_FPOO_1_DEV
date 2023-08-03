@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Aluno
  */
-public class EmprestimoBancario {
+public class Atividade6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Qual é o valor da casa: ");

@@ -4,16 +4,19 @@
  */
 package atividade01;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Aluno
  */
-public class EstruturaRepeticao {
+public class Atividade1 {
     public static void main(String[] args) {
-        for (int i = 0; i <= 100; i++) {
-            if (i % 2 == 0) {
-                System.out.println("Números pares são " + i );
-            }
-        }
+        Scanner scanner = new Scanner(System.in);
+        double pi = 3.14;
+        System.out.println("Digite o valor do raio: ");
+        int raio = scanner.nextInt();
+        double media = pi * (raio * raio);
     }
+    
 }
