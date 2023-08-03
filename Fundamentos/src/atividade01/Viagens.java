@@ -13,7 +13,10 @@ import java.util.Scanner;
 public class Viagens {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Digite a distancia: ");
         double distancia = scanner.nextDouble();
+        
         if (distancia > 200) {
             double passagem1 = 0.50;
             double valorTotal = passagem1 * distancia;
