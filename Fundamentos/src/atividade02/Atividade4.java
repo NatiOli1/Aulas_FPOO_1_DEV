@@ -19,6 +19,7 @@ public class Atividade4 {
                 + "3-Carro Hb20 --- R$ 6800,00\n"
                 + "4-Apartamento --- R$ 180000,00");
         
+        System.out.println("\nDigite o número da opção que deseja: ");
         int itemEconomizar = scanner.nextInt();
         
         switch (itemEconomizar) {
@@ -27,11 +28,31 @@ public class Atividade4 {
                 double pagarMes1 = item1 * 0.05;
                 double valorPagar1 = item1 / pagarMes1;
                 double valorArrendondar = Math.ceil(valorPagar1);
-                System.out.println("Vai pagar o produto por: " + valorArrendondar);
-                
+                System.out.println("Vai pagar o produto por: " + valorArrendondar + "meses");
+                break;
+            case 2: 
+                double item2 = 1789.00;
+                double pagarMes2 = item2 * 0.1;
+                double valorPagar2 = item2 / pagarMes2;
+                double valorArrendondar2 = Math.ceil(valorPagar2);
+                System.out.println("Vai pagar o produto por: " + valorArrendondar2 + "meses");
+                break;
+            case 3:
+                double item3 = 6800.00;
+                double pagarMes3 = item3 * 0.02;
+                double valorPagar3 = item3 / pagarMes3;
+                double valorArrendondar3 = Math.ceil(valorPagar3);
+                System.out.println("Vai pagar o produto por: " + valorArrendondar3 + "meses");
+                break;
+            case 4:
+                double item4 = 180000.00;
+                double pagarMes4 = item4 * 0.01;
+                double valorPagar4 = item4 / pagarMes4;
+                double valorArrendondar4 = Math.ceil(valorPagar4);
+                System.out.println("Vai pagar o produto por: " + valorArrendondar4 + "meses");
                 break;
             default:
-                throw new AssertionError();
+                System.out.println("Erro ao digitar a informação");;
         }
         
     }
