@@ -20,5 +20,6 @@ public class AtividadeEnum {
         System.out.println(categoriaProdutos);
         
         RedesSociais redesSociais = new RedesSociais("Nathalia", 18, "estudante", CategoriaRedesSociaisEnum.Tiktok);
+        System.out.println(redesSociais);
     }
 }
