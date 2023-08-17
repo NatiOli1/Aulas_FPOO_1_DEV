@@ -16,5 +16,5 @@ public enum CategoriasProdutosEnum {
     Doce,
     Cerveja,
     Bolacha,
-    Fruta   
+    Fruta;   
 }

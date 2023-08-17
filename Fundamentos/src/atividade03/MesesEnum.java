@@ -20,7 +20,7 @@ public enum MesesEnum {
     Setembro("Setembro"),
     Outubro("Outubro"),
     Novembro("Novembro"),
-    Dezembro("Dezwmbro");
+    Dezembro("Dezembro");
     
     private String meses;
 
