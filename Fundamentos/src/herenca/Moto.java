@@ -21,7 +21,7 @@ public class Moto extends Veiculo{
 
     @Override
     public String toString() {
-        return super.toString() + "Moto{" + "combustivel=" + combustivel + ", tipoPartida=" + tipoPartida + '}';
+        return super.toString() + "\nMoto{" + "combustivel=" + combustivel + ", tipoPartida=" + tipoPartida + '}';
     }
     
     
